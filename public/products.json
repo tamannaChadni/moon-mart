@@ -27,55 +27,55 @@
       },
       {
         "id": 3,
-        "estate_title": "Secluded Forest Hideaway",
-        "segment_name": "Forests",
-        "description": "Enchanting forest hideaway tucked away amidst towering trees and tranquil surroundings. A nature lover's paradise offering endless possibilities for recreation and relaxation.",
-        "price": "$700,000",
-        "status": "sale",
-        "area": "100 acres",
-        "location": "Pacific Northwest, USA",
-        "facilities": ["Cabin", "Hiking trails", "Creek", "Wildlife"],
-        "image": "https://i.ibb.co/TkZ8DRS/img3.jpg"
-        
+        "estate_title": "Organizing light",
+        "segment_name": "Headphn",
+        "description": "An idyllic setting for wine production or luxurious living.",
+        "price": "$30",
+        "status": "on stock",
+        "area": "BD",
+        "location": "Sonoma County, California",
+        "facilities": ["yellow", "blue", "red", "green"],
+        "image": "https://i.ibb.co/q1CP9vJ/5.webp"
+
       },
       {
         "id": 4,
-        "estate_title": "Historic Plantation Manor",
-        "segment_name": "Plantations",
-        "description": "Stately plantation manor steeped in history and Southern charm, surrounded by acres of verdant land and majestic oak trees. A rare opportunity to own a piece of American heritage.",
-        "price": "$4,200,000",
-        "status": "sale",
-        "area": "300 acres",
-        "location": "Charleston, South Carolina",
-        "facilities": ["Manor house", "Gardens", "Stables", "Ponds"],
-        "image": "https://i.ibb.co/tzt3FTz/img4.jpg"
+        "estate_title": "Round shirt",
+        "segment_name": "Tshirt",
+        "description": "Perfect for organic living.",
+        "price": "$9",
+        "status": "on stock",
+        "area": "",
+        "location": "Tuscany, Italy",
+        "facilities": ["yellow", "blue", "red", "green"],
+        "image": "https://i.ibb.co/4ZnPg7P/4.webp"
         
       },
       {
         "id": 5,
-        "estate_title": "Expansive Ranch Retreat",
-        "segment_name": "Ranches",
-        "description": "Sprawling ranch retreat offering vast open spaces, rugged beauty, and endless recreational opportunities. Perfect for equestrian pursuits or outdoor enthusiasts.",
-        "price": "$2,000,000",
-        "status": "sale",
-        "area": "1000 acres",
-        "location": "Montana, USA",
-        "facilities": ["Ranch house", "Barn", "Corrals", "Trails"],
-        "image": "https://i.ibb.co/YWCkP7T/img5.jpg"
-       
+        "estate_title": "Organizing light",
+        "segment_name": "Headphn",
+        "description": "An idyllic setting for wine production or luxurious living.",
+        "price": "$30",
+        "status": "on stock",
+        "area": "BD",
+        "location": "Sonoma County, California",
+        "facilities": ["yellow", "blue", "red", "green"],
+        "image": "https://i.ibb.co/q1CP9vJ/5.webp"
+
       },
       {
         "id": 6,
-        "estate_title": "Fertile Agricultural Land",
-        "segment_name": "Agricultural Land",
-        "description": "Highly productive agricultural land suitable for a variety of crops, offering excellent investment potential and ample space for farming operations.",
-        "price": "$500,000",
-        "status": "sale",
-        "area": "200 acres",
-        "location": "Midwest, USA",
-        "facilities": ["Arable land", "Water rights", "Access road"],
-        "image": "https://i.ibb.co/mRzSDQC/img6.jpg"
-       
+        "estate_title": "Round shirt",
+        "segment_name": "Tshirt",
+        "description": "Perfect for organic living.",
+        "price": "$9",
+        "status": "on stock",
+        "area": "",
+        "location": "Tuscany, Italy",
+        "facilities": ["yellow", "blue", "red", "green"],
+        "image": "https://i.ibb.co/4ZnPg7P/4.webp"
+        
       }
     ]
  

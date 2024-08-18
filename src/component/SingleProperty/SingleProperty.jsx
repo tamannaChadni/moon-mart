@@ -38,7 +38,7 @@ const SingleProperty = ({ property }) => {
             </span>
             <span className="font-bold text-teal-500 text-xl">{area}</span>
           </div>
-          <Link to={`/property/${id}`}><button  data-aos="flip-up" className="btn text-white bg-teal-400 ">View property</button></Link>
+          <Link to={`/property/${id}`}><button  data-aos="flip-up" className="btn text-white bg-teal-400 ">View products</button></Link>
         </div>
       </div>
     </article>
