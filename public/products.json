@@ -1,28 +1,28 @@
  [
       {
         "id": 1,
-        "estate_title": "Sprawling Vineyard Estate",
-        "segment_name": "Vineyards",
-        "description": "Magnificent vineyard estate set amidst rolling hills, boasting acres of lush vineyards and panoramic views. An idyllic setting for wine production or luxurious living.",
-        "price": "$3,500,000",
-        "status": "sale",
-        "area": "50 acres",
+        "estate_title": "Organizing light",
+        "segment_name": "Headphn",
+        "description": "An idyllic setting for wine production or luxurious living.",
+        "price": "$30",
+        "status": "on stock",
+        "area": "BD",
         "location": "Sonoma County, California",
-        "facilities": ["Vineyard", "Winery", "Tasting room", "Guest house"],
-        "image": "https://i.ibb.co/LnhLFrK/img1.jpg"
+        "facilities": ["yellow", "blue", "red", "green"],
+        "image": "https://i.ibb.co/q1CP9vJ/5.webp"
 
       },
       {
         "id": 2,
-        "estate_title": "Rustic Farmhouse Retreat",
-        "segment_name": "Farms",
-        "description": "Charming farmhouse nestled on a picturesque farm, offering a serene escape from the hustle and bustle of city life. Perfect for organic farming or country living.",
-        "price": "$900,000",
-        "status": "sale",
-        "area": "20 acres",
+        "estate_title": "Round shirt",
+        "segment_name": "Tshirt",
+        "description": "Perfect for organic living.",
+        "price": "$9",
+        "status": "on stock",
+        "area": "",
         "location": "Tuscany, Italy",
-        "facilities": ["Farmhouse", "Barn", "Fields", "Orchard"],
-        "image": "https://i.ibb.co/qRb1jMK/img2.jpg"
+        "facilities": ["yellow", "blue", "red", "green"],
+        "image": "https://i.ibb.co/4ZnPg7P/4.webp"
         
       },
       {

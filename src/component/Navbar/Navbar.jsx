@@ -109,7 +109,7 @@ const Navbar = () => {
         {
           user ?<button onClick={handleLogout} className="btn bg-yellow-500 text-white hidden lg:block">
           Logout
-        2</button>:<Link to="/login"><button className="btn bg-orange-300 text-white hidden lg:block">
+        </button>:<Link to="/login"><button className="btn bg-orange-300 text-white hidden lg:block">
           Login
         </button></Link>
         }

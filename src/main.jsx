@@ -28,7 +28,7 @@ const router = createBrowserRouter([
         loader: () =>
           
           fetch(
-            "https://tamannachadni.github.io/properties-json-hosting/properties.json"
+            "products.json"
           ),
       },
       {
@@ -36,7 +36,7 @@ const router = createBrowserRouter([
         element: <PrivateRoute><PropertyDetails></PropertyDetails></PrivateRoute>,
         loader: () =>
           fetch(
-            "https://tamannachadni.github.io/properties-json-hosting/properties.json"
+            "products.json"
           ),
       },
       {
