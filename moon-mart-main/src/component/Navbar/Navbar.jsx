@@ -17,7 +17,7 @@ const Navbar = () => {
   }
 
   return (
-    <div className="container navbar bg-yellow-50 fixed top-0 left-0 right-0 z-10 mx-auto">
+    <div className="container navbar bg-base-100 mx-auto">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -48,7 +48,14 @@ const Navbar = () => {
             >
               Home
             </NavLink>
-            
+            {/* <NavLink
+              className={({ isActive }) =>
+                isActive ? "text-teal-500 font-bold" : "font-normal"
+              }
+              to="/listed-book"
+            >
+              Update Profile
+            </NavLink> */}
             <NavLink
               className={({ isActive }) =>
                 isActive ? "text-teal-500 font-bold" : "font-normal"
@@ -64,20 +71,14 @@ const Navbar = () => {
 
         <Link
           to="/"
-          className="btn btn-ghost text-3xl font-boldtext-2xl font-bold bg-gradient-to-r from-red-500 via-yellow-400 to-orange-400 text-transparent bg-clip-text animate-gradient"
+          className="btn btn-ghost text-3xl font-boldtext-2xl font-bold bg-gradient-to-r from-emerald-500 via-teal-400 to-green-400 text-transparent bg-clip-text animate-gradient"
         >
           MoonMart
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
-
-      <div className="form-control">
-      <input type="text" placeholder="Search" className="input input-bordered w-24 md:w-auto" />
-    </div>
-        {/* <ul className="menu menu-horizontal px-1 gap-3"> */}
-
-          
-          {/* <NavLink
+        <ul className="menu menu-horizontal px-1 gap-3">
+          <NavLink
             className={({ isActive }) =>
               isActive ? "text-teal-500 font-bold" : "font-normal"
             }
@@ -85,6 +86,16 @@ const Navbar = () => {
           >
             Home
           </NavLink>
+
+          {/* <NavLink
+            className={({ isActive }) =>
+              isActive ? "text-teal-500 font-bold" : "font-normal"
+            }
+            to="/update-profile"
+          >
+           Update Profile
+          </NavLink> */}
+
           <NavLink
             className={({ isActive }) =>
               isActive ? "text-teal-500 font-bold" : "font-normal"
@@ -100,21 +111,21 @@ const Navbar = () => {
             to="/about-us"
           >
             About us
-          </NavLink> */}
+          </NavLink>
           
           
-        {/* </ul> */}
+        </ul>
       </div>
       <div className="navbar-end gap-2">
         {
-          user ?<button onClick={handleLogout} className="btn bg-yellow-500 text-white hidden lg:block">
+          user ?<button onClick={handleLogout} className="btn bg-teal-500 text-white hidden lg:block">
           Logout
-        2</button>:<Link to="/login"><button className="btn bg-orange-300 text-white hidden lg:block">
+        </button>:<Link to="/login"><button className="btn bg-teal-500 text-white hidden lg:block">
           Login
         </button></Link>
         }
         
-        <Link to="/register"><button className="btn bg-yellow-500 text-white">Registration</button></Link>
+        <Link to="/register"><button className="btn bg-emerald-500 text-white">Registration</button></Link>
       </div>
     </div>
   );
