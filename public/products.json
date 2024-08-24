@@ -1,81 +1,242 @@
- [
-      {
-        "id": 1,
-        "estate_title": "Organizing light",
-        "segment_name": "Headphn",
-        "description": "An idyllic setting for wine production or luxurious living.",
-        "price": "$30",
-        "status": "on stock",
-        "area": "BD",
-        "location": "Sonoma County, California",
-        "facilities": ["yellow", "blue", "red", "green"],
-        "image": "https://i.ibb.co/q1CP9vJ/5.webp"
-
-      },
-      {
-        "id": 2,
-        "estate_title": "Round shirt",
-        "segment_name": "Tshirt",
-        "description": "Perfect for organic living.",
-        "price": "$9",
-        "status": "on stock",
-        "area": "",
-        "location": "Tuscany, Italy",
-        "facilities": ["yellow", "blue", "red", "green"],
-        "image": "https://i.ibb.co/4ZnPg7P/4.webp"
-        
-      },
-      {
-        "id": 3,
-        "estate_title": "Organizing light",
-        "segment_name": "Headphn",
-        "description": "An idyllic setting for wine production or luxurious living.",
-        "price": "$30",
-        "status": "on stock",
-        "area": "BD",
-        "location": "Sonoma County, California",
-        "facilities": ["yellow", "blue", "red", "green"],
-        "image": "https://i.ibb.co/q1CP9vJ/5.webp"
-
-      },
-      {
-        "id": 4,
-        "estate_title": "Round shirt",
-        "segment_name": "Tshirt",
-        "description": "Perfect for organic living.",
-        "price": "$9",
-        "status": "on stock",
-        "area": "",
-        "location": "Tuscany, Italy",
-        "facilities": ["yellow", "blue", "red", "green"],
-        "image": "https://i.ibb.co/4ZnPg7P/4.webp"
-        
-      },
-      {
-        "id": 5,
-        "estate_title": "Organizing light",
-        "segment_name": "Headphn",
-        "description": "An idyllic setting for wine production or luxurious living.",
-        "price": "$30",
-        "status": "on stock",
-        "area": "BD",
-        "location": "Sonoma County, California",
-        "facilities": ["yellow", "blue", "red", "green"],
-        "image": "https://i.ibb.co/q1CP9vJ/5.webp"
-
-      },
-      {
-        "id": 6,
-        "estate_title": "Round shirt",
-        "segment_name": "Tshirt",
-        "description": "Perfect for organic living.",
-        "price": "$9",
-        "status": "on stock",
-        "area": "",
-        "location": "Tuscany, Italy",
-        "facilities": ["yellow", "blue", "red", "green"],
-        "image": "https://i.ibb.co/4ZnPg7P/4.webp"
-        
-      }
-    ]
- 
+[
+  { "id":1,
+      "name": "Wireless Mouse",
+      "category": "Electronics",
+      "image": "https://i.ibb.co/v3VCv2f/image.jpg",
+      "price": 25.99
+  },
+  {"id":2,
+      "name": "Bluetooth Headphones",
+      "category": "Electronics",
+      "image": "https://i.ibb.co/WV7YsK9/4.jpg",
+      "price": 59.99
+  },
+  {"id":3,
+      "name": "Laptop Stand",
+      "category": "Office Supplies",
+      "image": "https://i.ibb.co/jv8Tk6K/5.jpg",
+      "price": 35.00
+  },
+  {"id":4,
+      "name": "Gaming Keyboard",
+      "category": "Electronics",
+      "image": "https://i.ibb.co/YXJW21z/6.jpg",
+      "price": 45.50
+  },
+  {"id":5,
+      "name": "Desk Chair",
+      "category": "Furniture",
+      "image": "https://i.ibb.co/YPd8NPk/7.jpg",
+      "price": 120.00
+  },
+  {"id":6,
+      "name": "Running Shoes",
+      "category": "Footwear",
+      "image": "https://i.ibb.co/vvNKkmr/8.jpg",
+      "price": 85.00
+  },
+  {"id":7,
+      "name": "Yoga Mat",
+      "category": "Fitness",
+      "image": "https://i.ibb.co/gjT2rvy/9.jpg",
+      "price": 19.99
+  },
+  {"id":8,
+      "name": "Smartwatch",
+      "category": "Electronics",
+      "image": "https://i.ibb.co/MMn6rRg/10.jpg",
+      "price": 199.99
+  },
+  {"id":9,
+      "name": "Water Bottle",
+      "category": "Fitness",
+      "image": "https://i.ibb.co/RPcs9vH/11.jpg",
+      "price": 15.00
+  },
+  {"id":10,
+      "name": "Bluetooth Speaker",
+      "category": "Electronics",
+      "image": "https://i.ibb.co/GWkKpXM/12.jpg",
+      "price": 79.99
+  },
+  {"id":11,
+      "name": "Notebook",
+      "category": "Office Supplies",
+      "image": "https://i.ibb.co/ZWVVmMG/13.jpg",
+      "price": 10.00
+  },
+  {"id":12,
+      "name": "Office Desk",
+      "category": "Furniture",
+      "image": "https://i.ibb.co/VxYkC2n/14.jpg",
+      "price": 150.00
+  },
+  {"id":13,
+      "name": "Coffee Maker",
+      "category": "Home Appliances",
+      "image": "https://i.ibb.co/h2yPLY0/15.jpg",
+      "price": 89.99
+  },
+  {"id":14,
+      "name": "LED Desk Lamp",
+      "category": "Home Appliances",
+      "image": "https://i.ibb.co/C7yh9vf/16.jpg",
+      "price": 25.00
+  },
+  {"id":15,
+      "name": "Sunglasses",
+      "category": "Accessories",
+      "image": "https://i.ibb.co/Hz9gJYt/images.jpg",
+      "price": 45.99
+  },
+  {"id":16,
+      "name": "Backpack",
+      "category": "Bags",
+      "image": "https://i.ibb.co/CVQmRBB/images-1.jpg",
+      "price": 60.00
+  },
+  {"id":17,
+      "name": "Digital Camera",
+      "category": "Electronics",
+      "image": "https://i.ibb.co/sCwGLjk/19.jpg",
+      "price": 350.00
+  },
+  {"id":18,
+      "name": "Blender",
+      "category": "Home Appliances",
+      "image": "https://i.ibb.co/mD12NSK/images-2.jpg",
+      "price": 40.00
+  },
+  {"id":19,
+      "name": "Electric Kettle",
+      "category": "Home Appliances",
+      "image": "https://i.ibb.co/zbyVXMt/21.jpg",
+      "price": 30.00
+  },
+  {"id":20,
+      "name": "Sofa",
+      "category": "Furniture",
+      "image": "https://i.ibb.co/68D8DB8/22.jpg",
+      "price": 450.00
+  },
+  {"id":21,
+      "name": "Treadmill",
+      "category": "Fitness",
+      "image": "https://i.ibb.co/80JWVLB/23.jpg",
+      "price": 800.00
+  },
+  {"id":22,
+      "name": "Electric Toothbrush",
+      "category": "Personal Care",
+      "image": "https://i.ibb.co/7bJj36v/images-3.jpg",
+      "price": 50.00
+  },
+  {"id":23,
+      "name": "Hair Dryer",
+      "category": "Personal Care",
+      "image": "https://i.ibb.co/ykSVTq1/24.jpg",
+      "price": 30.00
+  },
+  {"id":24,
+      "name": "Portable Charger",
+      "category": "Electronics",
+      "image": "https://i.ibb.co/FKJKbk3/25.jpg",
+      "price": 25.00
+  },
+  {"id":25,
+      "name": "Smartphone",
+      "category": "Electronics",
+      "image": "https://i.ibb.co/8KZLf8P/images-4.jpg",
+      "price": 699.00
+  },
+  {"id":26,
+      "name": "Dress Shoes",
+      "category": "Footwear",
+      "image": "https://i.ibb.co/LYx7wtP/9.webp",
+      "price": 120.00
+  },
+  {"id":27,
+      "name": "Watch",
+      "category": "Accessories",
+      "image": "https://i.ibb.co/CbsRgyt/26.jpg",
+      "price": 150.00
+  },
+  {"id":28,
+      "name": "Jacket",
+      "category": "Apparel",
+      "image": "https://i.ibb.co/JndJjym/images-5.jpg",
+      "price": 80.00
+  },
+  {"id":29,
+      "name": "Tablet",
+      "category": "Electronics",
+      "image": "https://i.ibb.co/jzBQ0vT/44.webp",
+      "price": 300.00
+  },
+  {"id":30,
+      "name": "Wireless Earbuds",
+      "category": "Electronics",
+      "image": "https://i.ibb.co/8KzDQnL/23.webp",
+      "price": 99.00
+  },
+  {"id":31,
+      "name": "Cookware Set",
+      "category": "Kitchen",
+      "image": "https://i.ibb.co/p4HW1DQ/33.jpg",
+      "price": 120.00
+  },
+  {"id":32,
+      "name": "Vacuum Cleaner",
+      "category": "Home Appliances",
+      "image": "https://i.ibb.co/yFM5pQq/32.jpg",
+      "price": 200.00
+  },
+  {"id":33,
+      "name": "Desk Organizer",
+      "category": "Office Supplies",
+      "image": "https://i.ibb.co/3pngtJP/55.jpg",
+      "price": 15.00
+  },
+  {"id":34,
+      "name": "Running Shorts",
+      "category": "Fitness",
+      "image": "https://i.ibb.co/44g6yS7/22.webp",
+      "price": 25.00
+  },
+  {"id":35,
+      "name": "Protein Powder",
+      "category": "Fitness",
+      "image": "https://i.ibb.co/MZMp1ym/88.jpg",
+      "price": 40.00
+  },
+  {"id":36,
+      "name": "Electric Scooter",
+      "category": "Electronics",
+      "image": "https://i.ibb.co/xL7xBBD/24.webp",
+      "price": 400.00
+  },
+  {"id":37,
+      "name": "Fitness Tracker",
+      "category": "Electronics",
+      "image": "https://i.ibb.co/txmswpv/66.jpg",
+      "price": 70.00
+  },
+  {"id":38,
+      "name": "Wireless Charger",
+      "category": "Electronics",
+      "image": "https://i.ibb.co/p2wWDWW/images-6.jpg",
+      "price": 20.00
+  },
+  {"id":39,
+      "name": "Bean Bag Chair",
+      "category": "Furniture",
+      "image": "https://i.ibb.co/5YTZ8Gr/77.jpg",
+      "price": 60.00
+  },
+  {"id":40,
+      "name": "Chair",
+      "category": "Furniture",
+      "image": "https://i.ibb.co/6vXKv4X/99.jpg",
+      "price": 60.00
+  }
+]
