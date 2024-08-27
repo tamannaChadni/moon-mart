@@ -27,9 +27,11 @@ const router = createBrowserRouter([
         element: <Home></Home>,
         loader: () =>
           
-          fetch(
-            "products.json"
-          ),
+          // 'fetch(
+          //   "products.json"
+          // ),'
+
+          fetch('http://localhost:4000/product')
       },
       {
         path: "/property/:id",

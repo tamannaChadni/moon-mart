@@ -14,6 +14,15 @@ const Properties = () => {
             <p className="font-serif text-xl dark:text-gray-600">
               We are dedicated to providing world-class service
             </p>
+            <div>
+            <div className="dropdown">
+  <div tabIndex={0} role="button" className="btn m-1">Sort by</div>
+  <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
+    <li><a>Price</a></li>
+    <li><a>Date</a></li>
+  </ul>
+</div>
+            </div>
             {/* category */}
             <div>
               <div className="form-control">
@@ -80,6 +89,12 @@ const Properties = () => {
           </div>
         </div>
       </section>
+      <div className="p-5 space-x-2  flex justify-center">
+      
+  <button className=" btn btn-outline btn-warning">Previous</button>
+  <button className="btn btn-outline btn-warning  ">Next</button>
+
+      </div>
     </div>
   );
 };
